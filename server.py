@@ -1,8 +1,8 @@
 import socket
 import threading
 
-host = '13.82.223.61' # host ip adress
-port = 21
+host = '127.0.0.1' # host ip adress
+port = 55555
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((host, port))
