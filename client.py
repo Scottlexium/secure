@@ -6,7 +6,7 @@ if nickname == 'admin':
     password = input("Enter password as Admin: ")
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('13.82.223.61', 21))
+client.connect(('127.0.0.1', 55555))
 
 stop_thread = False
 
